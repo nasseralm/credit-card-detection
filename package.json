@@ -1,0 +1,32 @@
+{
+  "name": "credit-card-detector",
+  "version": "1.0.0",
+  "description": "CLI para detectar bandeira de cartão de crédito com validação de Luhn e cobertura de testes",
+  "main": "src/index.js",
+  "bin": {
+    "cc-detector": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint src tests --fix",
+    "coveralls": "cat coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.57.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nasseralm/credit-card-detection.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
