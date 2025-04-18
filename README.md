@@ -1,8 +1,8 @@
 # Credit Card Detector
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/seu-usuario/credit-card-detection/ci.yml?branch=main)](https://github.com/seu-usuario/credit-card-detection/actions/workflows/ci.yml)
-[![Lint Status](https://img.shields.io/github/actions/workflow/status/seu-usuario/credit-card-detection/lint.yml?branch=main)](https://github.com/seu-usuario/credit-card-detection/actions/workflows/lint.yml)
-[![Coverage Status](https://img.shields.io/coveralls/github/seu-usuario/credit-card-detection)](https://coveralls.io/github/seu-usuario/credit-card-detection)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/nasseralm/credit-card-detection/ci.yml?branch=main)](https://github.com/nasseralm/credit-card-detection/actions/workflows/ci.yml)
+[![Lint Status](https://img.shields.io/github/actions/workflow/status/nasseralm/credit-card-detection/lint.yml?branch=main)](https://github.com/nasseralm/credit-card-detection/actions/workflows/lint.yml)
+[![Coverage Status](https://img.shields.io/coveralls/github/nasseralm/credit-card-detection)](https://coveralls.io/github/nasseralm/credit-card-detection)
 
 Aplicação CLI em **Node.js** para identificação da **bandeira** de cartões de crédito e validação automática via **Algoritmo de Luhn**.
 
